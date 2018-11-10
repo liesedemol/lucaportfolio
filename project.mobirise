@@ -7,23 +7,23 @@
       "title": "Mobirise 4",
       "styling": {
         "primaryColor": "#232323",
-        "secondaryColor": "#ff3366",
-        "successColor": "#F7ED4A",
-        "infoColor": "#82786E",
-        "warningColor": "#879A9F",
-        "dangerColor": "#B1A374",
+        "secondaryColor": "#ffffff",
+        "successColor": "#efefef",
+        "infoColor": "#cccccc",
+        "warningColor": "#efefef",
+        "dangerColor": "#232323",
         "mainFont": "Rubik",
-        "display1Font": "Rubik",
+        "display1Font": "Libre Baskerville",
         "display1Size": "5",
         "display2Font": "Rubik",
-        "display2Size": "2.8",
+        "display2Size": "4",
         "display5Font": "Rubik",
         "display5Size": 1.5,
-        "display7Font": "Rubik",
-        "display7Size": 1,
-        "display4Font": "Rubik",
+        "display7Font": "Libre Baskerville",
+        "display7Size": "0,5",
+        "display4Font": "Libre Baskerville",
         "display4Size": 1,
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
@@ -31,7 +31,18 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.4",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Old Standard TT', serif",
+        "name": "Old Standard TT",
+        "url": "https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700"
+      },
+      {
+        "css": "'Libre Baskerville', serif",
+        "name": "Libre Baskerville",
+        "url": "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700"
+      }
+    ],
     "favicon": "",
     "noImageResize": "true",
     "uniqCompNum": 6,
@@ -52,11 +63,15 @@
             "padding-bottom": "(@paddingBottom * 15px)",
             "background-color": "@bgColor",
             ".mbr-text": {
-              "color": "#767676"
+              "color": "#767676",
+              "text-align": "left"
+            },
+            ".mbr-text I": {
+              "color": "#232323"
             }
           },
           "_name": "content3",
-          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline>\n                     Maak met een paar muisklikken uw eigen website! Mobirise helpt u de ontwikkeltijd te verkorten door u een veelzijdige website-editor te bieden met een drag-en-drop interface. Mobirise Website Builder maakt met een paar muisklikken leuke, retina- en mobielvriendelijke websites. Mobirise is een van de gemakkelijkst apps beschikbaar voor het ontwikkelen van websites. Het laat je ook toe zoveel websites te ontwerpen als u wilt gezien het een desktop-app is.\n                </div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section mbr-id=\"_anchor\" mbr-paddings class=\"mbr-section article content3\">\n      \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) --> \n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->     \n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"row col-12 col-md-8\">\n                <div class=\"col-12 col-md-6 pr-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-article data-app-selector=\".mbr-text\" data-multiline><i>Liese werkt steeds vanuit de subtiliteit van de beweging. Het lijkt alsof zij de allerkleinste dingen -inclusief haarzelf- ademruimte wil geven opdat het object of lichaam tot leven komt. 'Ik wil de tijd geven aan datgene dat het zo vaak niet krijgt van ons.'</i></div>\n                <div class=\"col-12 col-md-6 pl-lg-4 mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-article data-app-selector=\".mbr-text\" data-multiline></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r7d3I79Yqy",
           "_anchor": "content3-4",
           "_protectedParams": [],
@@ -587,13 +602,13 @@
             }
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"checkbox\" title=\"Gestijlde tellers\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Vierkante tellers\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Tellerkleur\" name=\"counterColor\" value=\"#ffffff\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><a href=\"mailto:liese.demol@hotmail.com\"><b>vind me</b></a></li>\n                    <li><a href=\"https://www.instagram.com/liesedemol/\"><b>volg me</b></a></li>\n                    <li><a href=\"https://mobirise.co/\"><b>stuur me&nbsp;</b></a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"checkbox\" title=\"Gestijlde tellers\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Vierkante tellers\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Tellerkleur\" name=\"counterColor\" value=\"#ffffff\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><a href=\"https://www.facebook.com/liese.demol\"><b>vind me</b></a></li>\n                    <li><a href=\"https://www.instagram.com/liesedemol/\"><b>volg me</b></a></li>\n                    <li><a href=\"mailto:liese.demol@hotmail.com\"><b>stuur me&nbsp;</b></a></li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r8ZPYFAOv0",
+          "_anchor": "content11-5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content11-5"
+          "_params": {}
         }
       ]
     },
@@ -635,10 +650,20 @@
               ".image-block": {
                 "width": "100% !important"
               }
+            },
+            "DIV": {
+              "color": "#232323",
+              "text-align": "left"
+            },
+            "I": {
+              "color": "#ff7f9f"
+            },
+            "P": {
+              "color": "#ffffff"
             }
           },
           "_name": "image3",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Breedte\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Verloop\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/img-5405.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Maak knappe websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"8\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\" checked>        \n        \n        <input type=\"range\" inline title=\"Breedte\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"20\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Verloop\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/img-5405.jpg\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"><p><a href=\"me.html\"></a><i>over<br>wer<b>k</b>&nbsp;<br><b><a href=\"me.html\" class=\"text-white\">me</a></b></i></p></div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "r7d2s3nwGA",
           "_anchor": "image3-3",
           "_protectedParams": [],
