@@ -21,10 +21,10 @@ body {
 }
 .display-1 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 0.96rem;
+  font-size: 1.28rem;
 }
 .display-2 {
   font-family: 'Libre Baskerville', serif;
@@ -42,17 +42,17 @@ body {
 }
 .display-5 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 2.5rem;
+  font-size: 1rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 4rem;
+  font-size: 1.6rem;
 }
 .display-7 {
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.6rem;
+  font-size: 0.6rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 2.56rem;
+  font-size: 0.96rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -61,9 +61,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 0.48rem;
-    font-size: calc( 0.86rem + (0.6 - 0.86) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (0.86rem + (0.6 - 0.86) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.64rem;
+    font-size: calc( 0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 0.48rem;
@@ -76,9 +76,9 @@ body {
     line-height: calc( 1.4 * (0.86rem + (0.6 - 0.86) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 2rem;
-    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.8rem;
+    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -645,13 +645,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Libre Baskerville', serif;
-  font-size: 1.6rem;
+  font-size: 0.6rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 2.56rem;
+  font-size: 0.96rem;
 }
 .form-control,
 .form-control:focus {
@@ -1297,9 +1297,20 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #232323;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #232323;
+}
 .cid-rjKmLIsTd9 {
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 75px;
+  padding-bottom: 0px;
   background: #ffffff;
 }
 .cid-rjKmLIsTd9 .images-container.container-fluid {
@@ -1386,7 +1397,7 @@ body {
   color: #232323;
 }
 .cid-r9RjAR06DA {
-  background-image: url("../../../assets/images/img-5405.jpg");
+  background-image: url("../../../assets/images/c83b22e6-0c93-4ee7-8c28-8f3926421c2b.jpg");
 }
 .cid-r9RjAR06DA .mbr-text,
 .cid-r9RjAR06DA .mbr-section-btn {
@@ -1396,7 +1407,7 @@ body {
   text-align: left;
 }
 .cid-rjKeymtG2p {
-  padding-top: 0px;
+  padding-top: 135px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -1471,6 +1482,7 @@ body {
 .cid-rjKaWZFZ4H .mbr-text,
 .cid-rjKaWZFZ4H .mbr-section-btn {
   color: #000000;
+  text-align: left;
 }
 .cid-raavJ12Eqr {
   padding-top: 15px;
@@ -1481,7 +1493,7 @@ body {
   color: #232323;
 }
 .cid-raw39DNbai {
-  padding-top: 135px;
+  padding-top: 75px;
   padding-bottom: 135px;
   background-color: #ffffff;
 }
