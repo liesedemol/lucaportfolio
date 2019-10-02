@@ -49,7 +49,7 @@
     ],
     "favicon": "",
     "noImageResize": "true",
-    "uniqCompNum": 31,
+    "uniqCompNum": 32,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
@@ -1371,19 +1371,6 @@
                 "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/kronkel.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/kronkel-800x1067.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": true
-              },
-              {
-                "tags": "Creatieve",
-                "videoPreview": "@THEME_PATH@/components/_images/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/img-6643.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/img-6643-800x1067.jpg",
                 "alt": "",
@@ -1391,6 +1378,19 @@
                 "customStyle1": "display-7",
                 "caption": "Onderschrift hier",
                 "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@PROJECT_PATH@/assets/images/mobirise201992-149252019-9-3-14-28-51.jpg",
+                "playVideo": true,
+                "videoUrl": "https://youtu.be/4J594MrQbww",
+                "image": "@PROJECT_PATH@/assets/images/kronkel.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/kronkel-800x1067.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": true
               },
               {
                 "tags": "Creatieve",
